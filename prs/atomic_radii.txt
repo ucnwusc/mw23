@@ -1,0 +1,18 @@
+H 25, 255 255 0,yellow
+He 31
+Li 145, 128 128 128,gray
+Be 105,250 128 114,salmon
+B 85,255 160 122,light salmon
+C 70,0 128 0,green
+N 65,0 0 128,navy
+O 60,255 0 0,red
+F 50,128 128 0,olive
+Ne 88
+Na 180,128 128 128,gray 
+Mg 150,192 192 192,silver 
+Al 125,192 192 192,silver 
+Si 110,176 196 222,light steel blue 
+P 100,255 69 0,orange red 
+S 100,255 140 0,dark orange 
+Cl 100,128 128 0,olive 
+Ar 171
