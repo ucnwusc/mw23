@@ -1,17 +1,17 @@
+class RectObj {
 
-class Ball {
-
-  float r;   // radius
+  float w,h;   // radius
   float x,y; // location
   float xspeed,yspeed; // speed
   
   // Constructor
-  Ball(float tempR) {
-    r = tempR;
-    x = 16;
-    y = 16;
-    xspeed = 1;
-    yspeed = 1;
+  RectObj(float tempX, float tempY,float tempW,float tempH) {
+    w =tempW;
+    h =tempH;
+    x = tempX;
+    y = tempY;
+    xspeed = -0.001;
+    yspeed = 0;
   }
   
   void move() {
@@ -22,15 +22,6 @@ class Ball {
     if (x > width || x < 0) {
       stop ();
     }
-    //Check vertical edges
-    if (y > height || y < 0) {
-      stop();
-    }
-    
-    if (keyPressed==true || mousePressed ==true){
-      x -=  xspeed;
-      y -= 5*yspeed;
-    }
     
   }
   
@@ -38,6 +29,6 @@ class Ball {
   void display() {
     stroke(0);
     fill(0,50);
-    ellipse(x,y,r*2,r*2);
+    rect(x,y,w,h);
   }
 }
