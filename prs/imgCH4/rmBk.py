@@ -10,8 +10,10 @@ newData = []
 for item in datas:
     if item[0] == 255 and item[1] == 255 and item[2] == 255:
         newData.append((255, 255, 255, 0))
+        print "white bkgd "
     else:
         newData.append(item)
+        print "non-white bkgd "
 
 img.putdata(newData)
-img.save("img2.png", "PNG")
+img.save("img3.png", "PNG")

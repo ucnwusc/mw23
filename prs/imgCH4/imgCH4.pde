@@ -37,7 +37,7 @@ void draw(){
   //background(102,275,170);//medium aqua
   //background(85,107,47);//dark olive green
   //background(192,192,192);//silver
-  background(0,0,0,0);//transparent
+  background(255,255,255);//transparent
   //atmH.show();
   //atmO.show();
   for(int i=0;i<4;i++){
